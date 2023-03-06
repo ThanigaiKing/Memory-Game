@@ -5,7 +5,8 @@
     display:flex;
     flex-wrap: wrap;
 }
-.main
+
+#main
 {
     position: absolute;
     top:10%;
@@ -33,4 +34,28 @@ h2{
         color:#ff3300;
     }
 
+}
+@media(max-width:480px)
+{
+    #main{
+      position: absolute;
+      top:0px;
+      left:0px;
+      width:80%;
+      height:50%;
+    }
+    h1{
+        font-size: medium;
+        font-weight:900;
+    }
+    #grid
+    {
+        margin-left:20px;
+        width:300px;
+        height:150px;
+    }
+    #textfield{
+        margin-left:20px;
+    }
+   
 }
